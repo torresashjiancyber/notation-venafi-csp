@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/notaryproject/notation-go v1.3.2
-	github.com/venafi/vsign v1.0.3-rc1.0.20250612051545-cc6b2dec094e
+	github.com/venafi/vsign v1.0.2
 )
 
 require (
@@ -16,13 +16,9 @@ require (
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.8-0.20250403174932-29230038a667 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
-	github.com/google/certificate-transparency-go v1.3.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/notaryproject/tspclient-go v1.0.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
-	github.com/rs/zerolog v1.34.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sagikazarmark/locafero v0.7.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
@@ -34,6 +30,7 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
+	golang.org/x/crypto v0.44.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
@@ -41,7 +38,6 @@ require (
 )
 
 require (
-	github.com/cloudflare/cfssl v1.6.5
 	github.com/digitorus/timestamp v0.0.0-20231217203849-220c5c2851b7
 	github.com/fxamacker/cbor/v2 v2.9.0
 	github.com/go-ldap/ldap/v3 v3.4.12
@@ -50,5 +46,4 @@ require (
 	github.com/notaryproject/notation-plugin-framework-go v1.0.0
 	github.com/urfave/cli/v2 v2.27.7
 	github.com/veraison/go-cose v1.3.0
-	golang.org/x/crypto v0.44.0
 )
